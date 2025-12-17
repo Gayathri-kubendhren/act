@@ -32,7 +32,7 @@ cd <your-project-folder>
 
 
 **Install dependencies**
-
+------
 **Backend**
 
 cd backend
@@ -70,23 +70,18 @@ npm start
 /api/orders → Handle customer orders (GET, POST, PUT, DELETE).
 
 ## 🔗 Repository Links
---------
-**act Portal Repository:**  
+
 👉https://github.com/Gayathri-kubendhren/act
 
 ## 🎬 Demo Video
---------
-Watch the working demo of the act portal, Custom Dashboard Builder:
 
 👉
 
 
 ## 💻 Full Source Code (Drive Link)
-------
-You can download or view the complete source code (Custom Dashboard Builder):
 
 👉
 
-👉 
+ 
 
------
+
