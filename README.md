@@ -13,8 +13,6 @@ The Custom Dashboard Builder allows users to create personalized dashboards by c
 
 🔢 Table pagination, search, and sorting.
 
-🔐 JWT-based authentication for secure access.
-
 💻 Tech Stack
 
 Frontend: React.js ⚛️, Tailwind CSS 🎨
@@ -58,7 +56,7 @@ Backend
 
 cd backend
 node index.js
-# or
+or
 npm start
 
 
@@ -68,38 +66,7 @@ cd ../frontend
 npm start
 
 
-Frontend will run on http://localhost:3000
- and backend on http://localhost:4000
-.
-
 📡 API Endpoint
 
 /api/orders → Handle customer orders (GET, POST, PUT, DELETE).
 
-📂 Folder Structure
-backend/
-  ├ models/
-  │   └ Order.js
-  ├ routes/
-  │   └ orderRoutes.js
-  ├ index.js
-  └ package.json
-
-frontend/
-  ├ src/
-  │   ├ components/
-  │   │   ├ Configured.jsx
-  │   │   ├ CreateTable.jsx
-  │   │   ├ CustomerOrders.jsx
-  │   │   └ Orders.jsx
-  │   ├ App.js
-  │   └ index.js
-  └ package.json
-
-⚡ Usage
-
-Open the frontend at http://localhost:3000
-
-Use the dashboard to add widgets and manage orders.
-
-Tables support pagination and sorting (e.g., 5, 10, 15 records per page).# act
