@@ -921,11 +921,12 @@ export default function Configured() {
                             <ChartWidget widget={widget} orders={orders} />
                           )}
 
-                        {widget.widgetType === "KPI" && (
-                          <div className="flex items-center justify-center h-full text-xl font-semibold">
-                            {widget.value ?? 0}
-                          </div>
-                        )}
+                        
+                       {widget.widgetType === "KPI" && (
+  <div className="flex items-center justify-center h-full text-xl font-semibold">
+    {Number(widget.value || 0).toFixed(widget.decimalPrecision || 0)}
+  </div>
+)}
 
                       </div>
 
